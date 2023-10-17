@@ -1,0 +1,153 @@
+.home-server {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home-server .overlap-wrapper {
+    background-color: #ffffff;
+    width: 1400px;
+    height: 1400px;
+  }
+  
+  .home-server .overlap {
+    width: 1330px;
+    height: 1274px;
+    top: 53px;
+    left: 35px;
+    position: relative;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .home-server .proxmox-logo {
+    position: absolute;
+    width: 280px;
+    height: 42px;
+    top: 24px;
+    left: 74px;
+  }
+  
+  .home-server .debian {
+    position: absolute;
+    width: 1182px;
+    height: 762px;
+    top: 87px;
+    left: 74px;
+  }
+  
+  .home-server .overlap-group {
+    width: 1180px;
+    height: 762px;
+    position: relative;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .home-server .debian-logo {
+    position: absolute;
+    width: 130px;
+    height: 49px;
+    top: 71px;
+    left: 74px;
+  }
+  
+  .home-server .processors-cores {
+    position: absolute;
+    width: 205px;
+    top: 141px;
+    left: 74px;
+    font-family: "IBM Plex Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-server .systemctl {
+    position: absolute;
+    width: 809px;
+    height: 192px;
+    top: 498px;
+    left: 299px;
+  }
+  
+  .home-server .div {
+    width: 805px;
+    height: 192px;
+    position: relative;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .home-server .samba-crontab-rsync {
+    position: absolute;
+    width: 430px;
+    top: 35px;
+    left: 149px;
+    font-family: "IBM Plex Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-server .text-wrapper {
+    position: absolute;
+    top: 35px;
+    left: 32px;
+    font-family: "IBM Plex Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-server .docker {
+    position: absolute;
+    width: 805px;
+    height: 406px;
+    top: 71px;
+    left: 299px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .home-server .langtool-website {
+    position: absolute;
+    width: 430px;
+    top: 47px;
+    left: 149px;
+    font-family: "IBM Plex Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home-server .span {
+    text-decoration: underline;
+  }
+  
+  .home-server .text-wrapper-2 {
+    font-family: "IBM Plex Mono-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  
+  .home-server .docker-logo {
+    position: absolute;
+    width: 81px;
+    height: 68px;
+    top: 51px;
+    left: 28px;
+  }
+  
