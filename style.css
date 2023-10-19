@@ -1,153 +1,122 @@
-.home-server {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .home-server .overlap-wrapper {
-    background-color: #ffffff;
-    width: 1400px;
-    height: 1400px;
-  }
-  
-  .home-server .overlap {
-    width: 1330px;
-    height: 1274px;
-    top: 53px;
-    left: 35px;
-    position: relative;
-    border: 1px solid;
-    border-color: #000000;
-  }
-  
-  .home-server .proxmox-logo {
-    position: absolute;
-    width: 280px;
-    height: 42px;
-    top: 24px;
-    left: 74px;
-  }
-  
-  .home-server .debian {
-    position: absolute;
-    width: 1182px;
-    height: 762px;
-    top: 87px;
-    left: 74px;
-  }
-  
-  .home-server .overlap-group {
-    width: 1180px;
-    height: 762px;
-    position: relative;
-    border: 1px solid;
-    border-color: #000000;
-  }
-  
-  .home-server .debian-logo {
-    position: absolute;
-    width: 130px;
-    height: 49px;
-    top: 71px;
-    left: 74px;
-  }
-  
-  .home-server .processors-cores {
-    position: absolute;
-    width: 205px;
-    top: 141px;
-    left: 74px;
-    font-family: "IBM Plex Mono-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 12px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .home-server .systemctl {
-    position: absolute;
-    width: 809px;
-    height: 192px;
-    top: 498px;
-    left: 299px;
-  }
-  
-  .home-server .div {
-    width: 805px;
-    height: 192px;
-    position: relative;
-    border: 1px solid;
-    border-color: #000000;
-  }
-  
-  .home-server .samba-crontab-rsync {
-    position: absolute;
-    width: 430px;
-    top: 35px;
-    left: 149px;
-    font-family: "IBM Plex Mono-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .home-server .text-wrapper {
-    position: absolute;
-    top: 35px;
-    left: 32px;
-    font-family: "IBM Plex Mono-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .home-server .docker {
-    position: absolute;
-    width: 805px;
-    height: 406px;
-    top: 71px;
-    left: 299px;
-    border: 1px solid;
-    border-color: #000000;
-  }
-  
-  .home-server .langtool-website {
-    position: absolute;
-    width: 430px;
-    top: 47px;
-    left: 149px;
-    font-family: "IBM Plex Mono-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 14px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .home-server .span {
-    text-decoration: underline;
-  }
-  
-  .home-server .text-wrapper-2 {
-    font-family: "IBM Plex Mono-Regular", Helvetica;
-    font-weight: 400;
-    color: #000000;
-    font-size: 14px;
-    letter-spacing: 0;
-  }
-  
-  .home-server .docker-logo {
-    position: absolute;
-    width: 81px;
-    height: 68px;
-    top: 51px;
-    left: 28px;
-  }
-  
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="home-server">
+      <div class="overlap-wrapper">
+        <div class="overlap">
+          <img class="proxmox-logo" src="img/proxmox-logo.svg" />
+          <div class="countour-debian"></div>
+          <img class="debian-logo" src="img/debian-logo.svg" />
+          <p class="processors-cores">
+            Processors: 1 <br />Cores: 3 <br />RAM: 4gb <br />root volume: 50gb, ext4 <br />q35 emulator <br />EFI
+            <br />USB bypass
+          </p>
+          <div class="text-wrapper">[main server]</div>
+          <div class="rectangle"></div>
+          <p class="samba-crontab-rsync">
+            samba <br />crontab [rsync, socket ping] <br />hdd[x].automount
+            <br />ufw<br />openssh<br />ssh-access-notifier [script]
+          </p>
+          <div class="div">systemctl</div>
+          <div class="docker">
+            <p class="langtool-website">
+              <a href="https://languagetool.org/" target="_blank" rel="noopener noreferrer"
+                ><span class="span">langtool <br /></span
+              ></a>
+              <a href="https://danylostapchenko.com" target="_blank" rel="noopener noreferrer"
+                ><span class="span">website</span></a
+              >
+              <span class="text-wrapper-2">
+                [nginx] <br />nginx proxy manager <br />lamp <br />LibreTranslate <br
+              /></span>
+              <a href="https://ntfy.sh/" target="_blank" rel="noopener noreferrer"><span class="span">ntfy</span></a>
+              <span class="text-wrapper-2"> <br /></span>
+              <a href="https://syncthing.net/" target="_blank" rel="noopener noreferrer"
+                ><span class="span">syncthing <br /></span
+              ></a>
+              <span class="text-wrapper-2">transmission <br />Jenkins <br /></span>
+              <a
+                href="https://github.com/metahedgehog/dockerized-link-redirection"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><span class="span">qr-counter-app <br /></span
+              ></a>
+              <span class="text-wrapper-2">minecraft-server <br /></span>
+              <a href="https://jellyfin.org/" target="_blank" rel="noopener noreferrer"
+                ><span class="span">jellyfin <br /></span
+              ></a>
+              <span class="text-wrapper-2">duckdns <br />grafana,loki,prometheus [under construction] <br /></span>
+              <a href="https://www.odoo.com/" target="_blank" rel="noopener noreferrer"
+                ><span class="span">odoo</span></a
+              >
+              <span class="text-wrapper-2"> [you are here!]</span>
+            </p>
+            <img class="docker-logo" src="img/docker-logo.svg" />
+          </div>
+          <div class="toolkit">
+            <div class="overlap-group">
+              <p class="p">
+                Processors: 1 <br />Cores: 1 <br />RAM: 1gb <br />root volume: 10gb, ext4 <br />q35 emulator <br />BIOS
+              </p>
+              <div class="rectangle-2"></div>
+              <img class="alpine-logo" src="img/alpine-logo.png" />
+              <div class="text-wrapper-3">[lab toolkit] [template]</div>
+            </div>
+            <img class="ansible" src="img/ansible-3.svg" />
+            <img class="img" src="img/docker-2.svg" />
+            <img class="terraform" src="img/terraform-2.svg" />
+          </div>
+          <div class="toolkit-2">
+            <div class="overlap-group">
+              <p class="processors-cores-2">
+                Processors: 1 <br />Cores: 2 <br />RAM: 2gb <br />root volume: 15gb, ext4 <br />q35 emulator <br />BIOS
+              </p>
+              <div class="rectangle-3"></div>
+              <div class="text-wrapper-4">[lab toolkit] [template]</div>
+              <img class="debian-logo-2" src="img/debian-logo-2.svg" />
+            </div>
+            <img class="ansible-2" src="img/ansible-2.svg" />
+            <img class="js" src="img/js.svg" />
+            <img class="docker-2" src="img/docker.svg" />
+            <img class="python" src="img/python-2.svg" />
+            <img class="terraform-2" src="img/terraform.svg" />
+          </div>
+          <div class="toolkit-3">
+            <div class="overlap-group">
+              <p class="processors-cores-2">
+                Processors: 1 <br />Cores: 2 <br />RAM: 2gb <br />root volume: 20gb, ext4 <br />q35 emulator <br />BIOS
+              </p>
+              <div class="rectangle-3"></div>
+              <div class="text-wrapper-3">[lab toolkit] [template]</div>
+              <img class="alma" src="img/alma-0logo.png" />
+            </div>
+            <img class="ansible-3" src="img/ansible.svg" />
+            <img class="js-2" src="img/js-2.svg" />
+            <img class="docker-3" src="img/image.svg" />
+            <img class="python-2" src="img/python.svg" />
+            <img class="terraform-3" src="img/terraform-3.svg" />
+          </div>
+          <div class="countour"></div>
+          <p class="processors-cores-3">
+            Processors: 1 <br />Cores: 1 <br />RAM: 256mb<br />USB bypass<br /><br />[public home wifi]
+          </p>
+          <img class="openwrt-logo" src="img/openwrt-logo.png" />
+          <div class="countour-home-server"></div>
+          <p class="element-HTTPS-access">
+            2FA<br />HTTPS access<br />scheduled backup for machines<br />rsync backup for the system
+          </p>
+          <div class="rectangle-4"></div>
+          <p class="dell-optiplex">
+            Dell OptiPlex 6020<br /><br />Intel Core i5 6500T (4:4)<br />8GB RAM<br />256 GB NVME<br />2x 2TB HDD
+            [USB]<br /><br />TDP: 35w<br />Power Consumption: 12w (average)
+          </p>
+          <img class="dell" src="img/dell-1.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
