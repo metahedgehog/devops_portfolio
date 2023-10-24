@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-10-24T10:06:22.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="G1aP7ExTXEpHePsozjxl" version="22.0.3" type="device">
+<mxfile host="Electron" modified="2023-10-24T10:01:49.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="iho-t7O-SMxZrNdSSZo-" version="22.0.3" type="device">
   <diagram name="Page-1" id="CMhpB0f25I9AqYQzK3KQ">
-    <mxGraphModel dx="2280" dy="1926" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2578" dy="2098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -280,11 +280,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pV0d1eghfRmnO6VI-RLP-154" value="Wi-Fi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=-0.014;entryY=0.849;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;strokeColor=#209CE4;endArrow=oval;endFill=1;startArrow=oval;startFill=1;fontColor=#209CE4;entryPerimeter=0;" edge="1" parent="1" source="pV0d1eghfRmnO6VI-RLP-135" target="pV0d1eghfRmnO6VI-RLP-8">
-          <mxGeometry x="-0.3008" relative="1" as="geometry">
+          <mxGeometry x="-0.5498" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="60" y="400" />
-              <mxPoint x="60" y="490" />
-              <mxPoint x="440" y="490" />
+              <mxPoint x="60" y="500" />
+              <mxPoint x="440" y="500" />
               <mxPoint x="440" y="560" />
               <mxPoint x="570" y="560" />
               <mxPoint x="570" y="510" />
@@ -295,11 +295,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pV0d1eghfRmnO6VI-RLP-155" value="Wi-Fi" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;strokeColor=#209CE4;startArrow=oval;startFill=1;endArrow=oval;endFill=1;fontColor=#209CE4;" edge="1" parent="1" source="pV0d1eghfRmnO6VI-RLP-135" target="pV0d1eghfRmnO6VI-RLP-35">
-          <mxGeometry x="-0.0368" relative="1" as="geometry">
+          <mxGeometry x="-0.4014" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="80" y="381" />
-              <mxPoint x="80" y="470" />
-              <mxPoint x="520" y="470" />
+              <mxPoint x="80" y="480" />
+              <mxPoint x="520" y="480" />
               <mxPoint x="520" y="449" />
             </Array>
             <mxPoint as="offset" />
@@ -504,6 +504,9 @@
         <mxCell id="pV0d1eghfRmnO6VI-RLP-211" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="572.9" y="26.6" width="100" height="67" as="geometry" />
         </mxCell>
+        <mxCell id="pV0d1eghfRmnO6VI-RLP-204" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;[GUI Linux]&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFA200;align=center;" vertex="1" parent="1">
+          <mxGeometry x="457" y="63.6" width="100" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="pV0d1eghfRmnO6VI-RLP-203" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="457" y="26.6" width="100" height="37" as="geometry" />
         </mxCell>
@@ -643,9 +646,6 @@
               <mxPoint x="385" y="320" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="pV0d1eghfRmnO6VI-RLP-204" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 7px;&quot;&gt;[GUI Linux]&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFA200;align=center;" vertex="1" parent="1">
-          <mxGeometry x="457" y="60" width="100" height="33.6" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
