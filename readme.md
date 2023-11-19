@@ -6,5 +6,3 @@ Nothing more special.
 ```
 https://danylostapchenko.com
 ```
-
-![alt text][./img/SVG/linux-face.svg" "logo"]
